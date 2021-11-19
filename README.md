@@ -1,5 +1,14 @@
 ### Hi there 👋
-<p align="center">Hi there. I'm a front-end developer.
+<style>
+  .circle{
+  border:1px solid green;
+  border-radius:50%;
+  }
+</style>
+<p align="center">Hi there. I'm a front-end developer.</p>
+<div class="circle">
+  
+</div>
 <!--
 **sumanhakki/sumanhakki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
