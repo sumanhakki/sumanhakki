@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-.container {
+.body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +75,7 @@
 }
 
        </style>
-  <div class="container">
+  <body>
     <div class="cube">
       <div class="top"></div>
       <div>
@@ -85,7 +85,7 @@
         <span style="--i: 3"></span>
       </div>
     </div>
-  </div>
+  </body>
         </div>
     </foreignObject>
 </svg>
