@@ -83,7 +83,7 @@ body {
   height: 300px;
   background: #f00;
   transform: translateZ(150px);
-
+}
   </style>
   <body>
     <div class="cube">
