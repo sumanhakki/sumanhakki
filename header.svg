@@ -13,6 +13,7 @@
 
 body {
   display: flex;
+  margin-top:100px;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -78,7 +79,7 @@ body {
        </style>
    <body>
        <div class="cube">
-      
+      <div class="top"></div>
       
       <div>
         <span style="--i:0;"></span>
