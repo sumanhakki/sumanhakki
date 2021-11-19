@@ -1,30 +1,10 @@
 ### Hi there 👋
-<img svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-            h1 {
-                color: red;
-                animation: mymove 2s infinite;
-            }
-
-            @keyframes mymove {
-                from {
-                    color: red;
-                }
-                to {
-                    color: yellow;
-                }
-            }
-            </style>
-            <h1>HELLO WORLD!</h1>
-        </div>
-      <div style="height:30px; width:30px;border:1px solid green; border-radius:50%">
-    </foreignObject>
-</svg>
-<p align="center">Hi there. I'm a front-end developer.</p>
-
-  
+<div align="center">
+	<br>
+	
+		<img src="header.svg" width="800" height="400" alt="Click to see the source">
+	
+	<br>
 </div>
 <!--
 **sumanhakki/sumanhakki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
