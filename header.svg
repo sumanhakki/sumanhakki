@@ -74,7 +74,7 @@ body {
 }
 
        </style>
-   
+   <body>
        <div class="cube">
       
       <div class="top"></div>
@@ -85,7 +85,7 @@ body {
         <span style="--i: 3"></span>
       </div>
     </div>
-   
+            </body>
         </div>
     </foreignObject>
 </svg>
