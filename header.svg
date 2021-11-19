@@ -77,12 +77,12 @@ body {
  .top::after {
   content: "";
   position: absolute;
-  top: 0;
+  top: 20;
   left: 0;
   width: 300px;
   height: 300px;
   background: #f00;
-  transform: translateZ(90px);
+  transform: translateZ(150px);
 
   </style>
   <body>
