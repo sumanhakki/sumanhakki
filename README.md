@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 <p align="center">Hi there. I'm a front-end developer.</p>
-<div style="border:1px solid green; border-radius:50%">
+<div style="height:30px; width:30px;border:1px solid green; border-radius:50%">
   
 </div>
 <!--
