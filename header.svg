@@ -74,7 +74,7 @@ body {
     0 0 500px rgb(255, 0, 0, 1);
 }
 
-       </style>
+  </style>
   <body>
     <div class="cube">
       <div class="top"></div>
