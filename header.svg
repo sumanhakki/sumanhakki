@@ -83,12 +83,17 @@ background: linear-gradient(hsl(0, 100%, 50%),hsl(0, 100%, 50%));
    color:white; 
    font-family:sans-serif; 
    font-weigth:100;
+    padding:30px;
    }
  .title{
     color:hsl(0, 100%, 50%);     
      font-family:sans-serif; 
      font-weight:900;
   }
+  .large-text{
+    font-size:3rem;  
+         
+    }
   </style>
   <body>
     <div class="cube">
@@ -102,7 +107,7 @@ background: linear-gradient(hsl(0, 100%, 50%),hsl(0, 100%, 50%));
     </div>
       <div>
           <h2 class="sub-title">Don't underestemate </h2>
-           <h2 class="title">The power of CSS</h2>
+          <h2 class="title">THE POWER OF <span class="large-text"CSS</span></h2>
           
       </div>
   </body>
