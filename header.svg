@@ -77,7 +77,10 @@ background: linear-gradient(hsl(0, 100%, 50%),hsl(0, 100%, 50%));
     0 0 300px rgb(255, 0, 0, 0.6), 0 0 400px rgb(255, 0, 0, 0.8),
     0 0 500px rgb(255, 0, 0, 1);
 }
- 
+ .title{
+   color:white;      
+         
+   }
   </style>
   <body>
     <div class="cube">
