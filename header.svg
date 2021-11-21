@@ -25,7 +25,7 @@ body {
   transform-style: preserve-3d;
   transform: rotateX(-30deg);
   animation: animate 4s linear infinite;
- margin-bottom:13em;
+ margin-bottom:15em;
          
 }
 @keyframes animate {
@@ -80,7 +80,8 @@ background: linear-gradient(hsl(0, 100%, 50%),hsl(0, 100%, 50%));
     0 0 500px rgb(255, 0, 0, 1);
 }
  .title{
-   color:white;      
+   color:white; 
+   font-family:sans-serif;
          
    }
   </style>
