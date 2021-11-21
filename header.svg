@@ -107,7 +107,7 @@ background: linear-gradient(hsl(0, 100%, 50%),hsl(0, 100%, 50%));
     </div>
       <div>
           <h2 class="sub-title">Don't underestemate </h2>
-          <h2 class="title">THE POWER OF <span class="large-text"CSS</span></h2>
+          <h2 class="title">THE POWER OF <span class="large-text">CSS</span></h2>
           
       </div>
   </body>
