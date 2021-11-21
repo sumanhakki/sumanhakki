@@ -25,7 +25,7 @@ body {
   transform-style: preserve-3d;
   transform: rotateX(-30deg);
   animation: animate 4s linear infinite;
-   margin-top:7em;
+   margin-top:10em;
  margin-bottom:20em;
          
 }
@@ -107,7 +107,7 @@ background: linear-gradient(hsl(0, 100%, 50%),hsl(0, 100%, 50%));
       </div>
     </div>
       <div>
-          <h2 class="sub-title">Don't underestemate </h2>
+          <h2 class="sub-title">Don't underestimate </h2>
           <h2 class="title">THE POWER OF <span class="large-text">CSS</span></h2>
           
       </div>
