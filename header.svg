@@ -79,11 +79,16 @@ background: linear-gradient(hsl(0, 100%, 50%),hsl(0, 100%, 50%));
     0 0 300px rgb(255, 0, 0, 0.6), 0 0 400px rgb(255, 0, 0, 0.8),
     0 0 500px rgb(255, 0, 0, 1);
 }
- .title{
+ .sub-title{
    color:white; 
-   font-family:sans-serif;
-         
+   font-family:sans-serif; 
+   font-weigth:100;
    }
+ .title{
+    color:hsl(0, 100%, 50%)     
+     font-family:sans-serif; 
+     font-weight:900;
+  }
   </style>
   <body>
     <div class="cube">
@@ -96,7 +101,9 @@ background: linear-gradient(hsl(0, 100%, 50%),hsl(0, 100%, 50%));
       </div>
     </div>
       <div>
-          <h2 class="title">Don't underustemate the power of CSS</h2>
+          <h2 class="sub-title">Don't underustemate </h2>
+           <h2 class="title">The power of CSS</h2>
+          
       </div>
   </body>
         </div>
