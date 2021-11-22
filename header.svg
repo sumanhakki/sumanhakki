@@ -83,6 +83,12 @@ z-index:0;
    font-weigth:100;
     padding-bottom:10px;
    }
+ .green{
+     display:inline-block;
+     display:flex;
+      justify-content: center;
+  align-items: center;    
+         }
  .title{
     color:hsl(0, 100%, 50%);     
      font-family:sans-serif; 
@@ -100,9 +106,9 @@ z-index:0;
           
         </div>
       <div>
-        <span style="--i: 0 ; background:yellow" >Hello</span>
+        <span style="--i: 0 ; background:yellow" ></span>
         <span style="--i: 1 ;background:blue"></span>
-        <span style="--i: 2 ;background:green"></span>
+          <span class="green" style="--i: 2 ;background:green"><p class="teaser">Hello World</p></span>
         <span style="--i: 3 ;background:orange"></span>
       </div>
     </div>
