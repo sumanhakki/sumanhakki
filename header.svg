@@ -1,20 +1,20 @@
-
 <svg fill="black" viewBox="0 0 800 900" width="800" height="900" xmlns="http://www.w3.org/2000/svg" >
     <foreignObject width="100%" height="100%">
      <div xmlns="http://www.w3.org/1999/xhtml">   
      <style>
-* {
+       * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #050505;
 }
-
 body {
   display: flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #050505;
+  
 }
 .cube {
   position: relative;
@@ -23,7 +23,9 @@ body {
   transform-style: preserve-3d;
   transform: rotateX(-30deg);
   animation: animate 4s linear infinite;
-  background: red;
+   margin-top:10em;
+ margin-bottom:17em;
+         
 }
 @keyframes animate {
   0% {
@@ -47,10 +49,21 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(hsl(0, 0%, 8%), hsl(0, 100%, 50%));
-  transform: rotateY(calc(90deg * var(--i))) translateZ(40px);
+background: linear-gradient(hsl(0, 100%, 50%),hsl(0, 100%, 50%));
+  transform: rotateY(calc(90deg * var(--i))) translateZ(149px);
 }
-.cube::after {
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  background:linear-gradient(hsl(0,0%,4%),hsl(0, 100%, 50%),hsl(0,0%,4%)); 
+  z-index:5;
+  transform: rotateX(90deg) translateZ(150px);
+   
+}
+.top::before {
   content: "";
   position: absolute;
   top: 0;
@@ -58,21 +71,12 @@ body {
   width: 300px;
   height: 300px;
   background: #f00;
-  animation: animate2 4s linear infinite;
+  transform: translateZ(-380px);
   filter: blur(20px);
   box-shadow: 0 0 120px rgb(255, 0, 0, 0.2), 0 0 200px rgb(255, 0, 0, 0.4),
     0 0 300px rgb(255, 0, 0, 0.6), 0 0 400px rgb(255, 0, 0, 0.8),
     0 0 500px rgb(255, 0, 0, 1);
 }
-@keyframes animate2 {
-  0% {
-    transform: rotateX(-90deg) rotateY(360deg);
-  }
-  100% {
-    transform: rotateX(-90deg) rotateY(0deg);
-  }
-}
-
  .sub-title{
    color:white; 
    font-family:sans-serif; 
@@ -108,5 +112,4 @@ body {
         </div>
     </foreignObject>
 </svg>
-
 
