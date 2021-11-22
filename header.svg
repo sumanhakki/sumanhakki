@@ -77,7 +77,7 @@ z-index:0;
     transform: rotateX(-90deg) rotateY(0deg);
   }
 }
- .sub-title{
+ .sub-title,.teaser{
    color:white; 
    font-family:sans-serif; 
    font-weigth:100;
@@ -95,8 +95,9 @@ z-index:0;
   </style>
   <body>
     <div class="cube">
+        <p class="teaser">Optimized</p>
       <div class="top">
-          <p>Optimized</p>
+          
         </div>
       <div>
         <span style="--i: 0 ; background:yellow" ></span>
