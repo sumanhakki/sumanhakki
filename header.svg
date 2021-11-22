@@ -98,9 +98,9 @@ z-index:5;
       <div class="top"></div>
       <div>
         <span style="--i: 0 ; background:yellow" ></span>
-        <span style="--i: 1 background:blue"></span>
-        <span style="--i: 2 background:green"></span>
-        <span style="--i: 3 background:orange"></span>
+        <span style="--i: 1 ;background:blue"></span>
+        <span style="--i: 2 ;background:green"></span>
+        <span style="--i: 3 ;background:orange"></span>
       </div>
     </div>
       <div>
