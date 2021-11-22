@@ -100,7 +100,7 @@ z-index:0;
           
         </div>
       <div>
-        <span style="--i: 0 ; background:yellow" ></span>
+        <span style="--i: 0 ; background:yellow" >Hello</span>
         <span style="--i: 1 ;background:blue"></span>
         <span style="--i: 2 ;background:green"></span>
         <span style="--i: 3 ;background:orange"></span>
