@@ -95,7 +95,9 @@ z-index:0;
   </style>
   <body>
     <div class="cube">
-      <div class="top"></div>
+      <div class="top">
+          <p>Optimized</p>
+        </div>
       <div>
         <span style="--i: 0 ; background:yellow" ></span>
         <span style="--i: 1 ;background:blue"></span>
